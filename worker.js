@@ -13,7 +13,6 @@ async function run_in_worker() {
 
 run_in_worker();
 
-
 onmessage = async function (e) {
     let result = parse_skins(
         e.data.file,
